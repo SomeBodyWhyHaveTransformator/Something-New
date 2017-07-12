@@ -1,0 +1,134 @@
+body{
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: arial;
+  margin: 0px;
+  color: white;
+}
+.header{
+  width: 100%;
+  height: 950px;
+  font-size: 20px;
+  background: url(../IMG/background-for-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  z-index: 3;
+}
+.header h1{
+  margin-top: 100px;
+}
+.navbar-brand{
+  font-size: 20px;
+}
+.navbar{
+  background-color: #85a8ba;
+  box-shadow: 0px 5px 20px 0px rgba(9, 9, 9, 1);
+}
+h1, h2, h3{
+  text-align: center;
+  font-weight: 500;
+}
+#modal{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width:600px;
+  height: 600px;
+  border: 20px solid #85a8ba;
+  margin-left: 33%;
+  margin-top: 11%;
+  position: fixed;
+  z-index: 30;
+  display: none;
+  transition: all 2s ease;
+}
+#closeModal{
+  float: right;
+  width: 50px;
+  height: 50px;
+  margin-top: -50px;
+  margin-right: -50px;
+  background: url(../IMG/close.png);
+  background-size: 100% 100%;
+}
+#buttonForChange{
+  width: 210px;
+  height: 35px;
+  border-radius: 13px;
+  background-color: #2d3e50;
+  margin: auto;
+  margin-top: 500px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.buttonForChangeColor{
+  width: 210px;
+  height: 35px;
+  background:#2d3e50;
+  text-align: center;
+  cursor: pointer;
+}
+.description{
+  box-shadow: 11px 12px 20px 0px rgba(9, 9, 9, 1);
+  float: left;
+  background: #2fcb71;
+  width:400px;
+  padding: 40px;
+  margin: 70px;
+}
+a{
+  color: white;
+  font-size: 16px;
+  transition: all 2s ease;
+}
+a:hover{
+  color: #84200e;
+}
+.navbar .navbar-nav > li > a:hover {
+    background: none;
+}
+.imageChoice{
+  width: 100%;
+  box-shadow: -20px 0px 20px 10px rgba(9, 9, 9, 1);
+  padding-top: 100px;
+  padding-bottom: 90px;
+  z-index: 5;
+  color: white;
+}
+.aboutLife{
+  width: 100%;
+  background-color: #9b59b6;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: white;
+}
+.fear{
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  background-color: #1abc9b;
+}
+#shadow{
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: fixed;
+  z-index: 29;
+  opacity: 0.8;
+  display: none;
+}
+.create{
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #e67e22;
+}
+.commentaries{
+  width: 100%;
+  background-color: #3498da;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
